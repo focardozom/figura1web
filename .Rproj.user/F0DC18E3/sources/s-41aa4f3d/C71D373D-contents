@@ -2,4 +2,7 @@ install.packages("blogdown")
 library(blogdown)
 
 blogdown::install_hugo()
+blogdown::install_theme("somratpro/
+somrat")
+blogdown::serve_site()
 
